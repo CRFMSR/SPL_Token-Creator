@@ -13,7 +13,7 @@ export function getExplorerUrl(
           'http://127.0.0.1:8899'
         )}`
       } else if (endpoint === 'https://api.devnet.solana.com') {
-        cluster = 'devnet'
+        cluster = 'mainnet'
       }
   
       return cluster ? `?cluster=${cluster}` : ''
