@@ -12,7 +12,7 @@ export function getExplorerUrl(
         cluster = `custom&customUrl=${encodeURIComponent(
           'http://127.0.0.1:8899'
         )}`
-      } else if (endpoint === 'https://api.devnet.solana.com') {
+      } else if (endpoint === 'https://api.mainnet-beta.solana.com') {
         cluster = 'mainnet'
       }
   
