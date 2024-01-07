@@ -1,1 +1,4 @@
-export type EndpointTypes = 'mainnet' | 'devnet' | 'localnet'
+
+import { Connection, clusterApiUrl } from '@solana/web3.js';
+
+const connection = new Connection(clusterApiUrl('mainnet-beta'));
